@@ -5,4 +5,4 @@
   <li>Class and objects </li>
 
 </ul>
-<iframe src='https://j.gifs.com/p8lVwm.gif' frameborder='0' scrolling='no' width='658px' height='408px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<img src = "https://j.gifs.com/p8lVwm.gif" alt= "playing the game"/>
