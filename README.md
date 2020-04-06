@@ -5,4 +5,4 @@
   <li>Class and objects </li>
 
 </ul>
-<iframe src='//gifs.com/embed/ghost-bird-p8lVwm' frameborder='0' scrolling='no' width='658px' height='408px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+<img src='//gifs.com/embed/ghost-bird-p8lVwm' frameborder='0' scrolling='no' width='658px' height='408px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);'/>
