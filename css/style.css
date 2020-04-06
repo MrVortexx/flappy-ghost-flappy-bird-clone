@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'VT323', monospace;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+h1{
+    margin: 15px 0;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    background: rgb(2,0,36);
+    border: 5px solid rgba(34, 33, 33, 0.479);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,121,121,1) 100%, rgba(0,212,255,1) 100%);
+    overflow: hidden;
+}
+
+.ghost{
+    width: 85px;
+    height:70px;
+    position: absolute;
+    left: calc(50% - 40px);
+    bottom: 50%;
+    
+}
+.barriers{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+.barrier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ .border{
+    height:30px;
+    width: 130px;
+    border: solid 2px #fff;
+    border-radius: 4px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(121,44,108,1) 0%, rgba(111,85,101,1) 86%, rgba(183,141,143,1) 96%, rgba(191,147,147,1) 100%);;
+}
+ .barrier-body{
+    height: 40px;
+    width: 110px;
+    background: rgb(2,0,36);
+    border: none;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(121,44,108,1) 0%, rgba(111,85,101,1) 86%, rgba(183,141,143,1) 96%, rgba(191,147,147,1) 100%);;
+}
+.score{
+    font-size: 50px;
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    color: #fff;
+}   
