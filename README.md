@@ -1,5 +1,5 @@
 # flappy-ghost 
-<h3> This aplication helps me to learning:</h3>
+<h3> This aplication helped me to learning:</h3>
 <ul> 
  <li>Dom and manipulation</li>
   <li>Class and objects </li>
